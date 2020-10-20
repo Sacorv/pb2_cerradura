@@ -25,7 +25,6 @@ public class Cerradura {
 			if(cantidadDeIngresosDeClaveErronea.compareTo(cantidadDeFallosConsecutivosQueLaBloquean)<0 && claveDeApertura.compareTo(clave)==0) {
 					cerraduraAbierta = true;
 					aperturaExitosa++;
-					//Agregar el reseteo de cantidadDeIngresosDeClaveErronea = 0;
 					cantidadDeIngresosDeClaveErronea = 0; //Reseteo del contador de ingresos erróneos de la clave
 			}
 			else {
